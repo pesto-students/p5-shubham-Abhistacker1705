@@ -1,0 +1,125 @@
+
+/* Css tags are arranged in order of flow of html */
+
+body{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+/* left navbar */
+aside{
+    background-color: #f1f0f1;
+    float: left;
+    height: 100%;
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* icons in left navbar */
+.nav-icon {
+    padding: 1.5rem 0;
+}
+
+/* main contain header and table  */
+main{
+    margin-left: 3rem;
+}
+
+header{
+    padding: 0.5rem 2rem 1.5rem;
+    background-color: #444445;
+    color: rgb(225, 225, 233);
+    display: flex;
+}
+
+.header-img{
+    width:160px;
+    height:160px;
+    margin-right: 2rem;
+    padding-top: 1.5rem; 
+}
+
+/* music details in header  */
+.music-details{
+    display: block;
+    padding: 0.25rem;
+    line-height:1.25;
+}
+
+/* header play and menu button as a section  */
+.header-features{
+    display: flex;
+    margin-top: 1.5rem;
+
+}
+
+/* icon with desc in header */
+.head-btn{
+    font-size: smaller;
+    padding:0 1rem 0 0;
+}
+
+/* icons only */
+.head-icon{
+    margin-right: 10px;
+}
+
+
+table{
+  width: 100%;
+  padding: 1rem;
+  font-size: smaller;
+  line-height: 2;
+}
+
+/* alternate row to grey  */
+.grey-row{
+    background-color: #f0f0f0;
+}
+
+a{
+    border-style:solid;
+    border-width: 1px;
+    text-decoration: none;
+}
+
+/* table cell containing anchor elements */
+.catty{
+    text-align: center;
+}
+
+footer{
+    background-color: #456999;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    line-height: 1.5;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.footer-image{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    width:80px;
+    height:80px
+}
+
+/*  album art ,artist name and song name in a section  */
+.nowplaying-details{
+    position: relative;
+    right: 5rem;
+
+}
+
+/* artist name and song name in a section  */
+.artist-details{
+    float:right;
+}
+
+.artist-name{
+   font-size: 14px;
+}
