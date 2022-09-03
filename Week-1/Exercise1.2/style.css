@@ -1,0 +1,206 @@
+html{
+    font-size: 100%;
+  }
+  /* media queries for font correction */
+  @media(max-width: 567px) {
+    html {
+    font-size: 90%;
+    }
+}
+@media(max-width: 510px) {
+    html {
+    font-size: 80%;
+    }
+}
+  @media(max-width: 447px) {
+      html {
+      font-size: 70%;
+      }
+  }
+  @media(max-width: 397px) {
+    html {
+    font-size: 60%;
+    }
+}
+  @media (max-width:310px) {
+    html{
+      font-size: 50%;
+    }
+  }
+  @media (max-width:285px) {
+    html{
+      font-size: 40%;
+    }
+  }
+  @media (max-width:227px) {
+    html{
+      font-size: 30%;
+    }
+  }
+  @media (max-width:183px) {
+    html{
+      font-size: 20%;
+    }
+  }
+  @media (max-width:145px) {
+    html{
+      font-size: 10%;
+    }
+  }
+  @media (max-width:100px) {
+    html{
+      font-size: 5%;
+    }
+  }
+
+  /* media queries end  */
+
+/* Css tags are arranged in order of flow of html */
+
+body{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+/* left navbar */
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-color: #f1f0f1;
+    padding: 0 1rem 10rem 1rem;
+    position: absolute;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+/* icons in left navbar */
+.nav-icon {
+    display: block;
+    padding: 1.5rem 0;
+}
+
+/* main contain header and table  */
+main{
+    margin-left: 3rem;
+}
+
+header{
+    padding: 0.5rem 2rem 1.5rem;
+    background-color: #444445;
+    color: #fff;
+    display: flex;
+}
+
+.header-img{
+    width:10rem;
+    height:10rem;
+    margin-right: 2rem;
+    padding-top: 1.5rem; 
+}
+
+/* music details in header  */
+.music-details{
+    display: block;
+    padding: 0.25rem;
+}
+
+/* clear spacing between music details in header  */
+.music-details >p{
+    margin: 0;
+}
+
+/* header play and menu button as a section  */
+.header-features{
+    display: flex;
+    margin-top: 2.725rem;
+
+}
+
+/* icon with desc in header */
+.head-btn{
+    font-size: smaller;
+    padding:0 1rem 0 0;
+}
+
+/* icons only */
+.head-icon{
+    margin-right:0.5rem;
+}
+
+
+table{
+  
+  width: 100%;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 2.5;
+  border-spacing: 0;
+}
+ 
+td{
+    padding-left: 1rem ;
+}
+
+/* alternate row to grey  */
+.grey-row{
+    background-color: #f0f0f0;
+    
+}
+
+a{
+    color: blue;
+    border-style:solid;
+    font-weight: 600;
+    border-color: black;
+    border-width: 1px;
+    padding: 0.1rem 0.25rem;
+    text-decoration: none;
+}
+
+/* table cell containing anchor elements */
+.catty{
+    text-align: center;
+    padding: 0 6rem;
+}
+
+footer{
+    background-color: #456999;
+    color: #fff;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    width: -moz-available;          
+    width: -webkit-fill-available;
+    width: fill-available;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    line-height: 1.5;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.footer-image{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    width:5rem;
+    height:5rem;
+}
+
+/* artist name,image and song name in a section  */
+.nowplaying-details{
+    padding-right: 18rem;
+}
+
+/* artist name and song name in a section  */
+.artist-details{
+    float:right;
+}
+
+.artist-name{
+   font-size: 0.875rem;
+}
