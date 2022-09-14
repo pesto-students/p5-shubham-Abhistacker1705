@@ -6,7 +6,7 @@ const fib = (n) =>({
             next: () => {
                 if(i++ <= n){
                     [first,second] = [second, (first+second)|| 1];
-                    return {value: a, done: false} 
+                    return {value: first, done: false} 
                 }else{
                     return{done : true}
                 }
