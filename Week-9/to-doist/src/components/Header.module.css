@@ -1,0 +1,28 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+    color: ghostwhite;
+}
+
+.navbar{
+    display: flex ;
+    flex-wrap: wrap;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem;
+    color: ghostwhite;
+}
+
+.mainlogo{
+    align-self: flex-start;
+    height:6.25rem;
+    width: 6rem;
+}
+a{
+    display: flex;
+    text-decoration:none;
+}
+.name{
+    align-self:flex-end;
+    font-size: 2.5rem;
+    color: ghostwhite;
+}
