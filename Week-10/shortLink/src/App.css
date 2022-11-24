@@ -1,0 +1,9 @@
+
+/*copy to clipboard button in LinkDisplay.jsx*/
+.link-display-container{
+    margin-bottom: 4rem;
+}
+
+.copy-btn{
+    width: 15%;
+}

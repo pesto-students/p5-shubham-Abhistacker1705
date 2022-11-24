@@ -1,0 +1,32 @@
+/* media query to make footer responsive */
+
+@media (max-width:800px) {
+    #footer-div{
+        flex-direction: column-reverse !important;
+        justify-content: unset !important;
+        
+    }
+    #footer-div > div{
+        padding-bottom: 2rem !important;
+    }
+    
+  }
+
+
+
+.anchor-hover{
+    color: ghostwhite;
+}
+
+.anchor-hover:hover{
+    color: gray
+}
+
+.footer-company-name{
+    color:rgb(55, 166, 218);
+
+}
+
+.copyright-year{
+    font-size: small;
+}

@@ -1,0 +1,28 @@
+#input-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+h1{
+    margin-bottom: 3rem;
+  }
+  
+.Heading-Shortlink{
+    color:  rgb(55, 166, 218);
+    font-size: 3rem;
+}
+ 
+.Shortner-word{
+    font-kerning:none;
+    font-weight: 100;
+    font-size:smaller;
+} 
+  
+.button-op{
+    margin: 1.5rem 0 6rem;
+} 
