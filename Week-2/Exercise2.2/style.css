@@ -1,0 +1,56 @@
+#outer{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    border: 0;
+    margin: 50px auto;    
+}
+h1{
+    position: absolute;
+    margin: 200px;
+    z-index: -1;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform-origin: top left;
+    transition: 1s ease-in-out;
+}
+.yellow{
+    width: 200px;
+    height: 200px;
+    background-color:yellow ;
+    transform-origin: top right;
+    transition: 1s ease-in-out;
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transform-origin: bottom left;
+    transition: 1s ease-in-out;
+}
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transform-origin: bottom right;
+    transition: 1s ease-in-out;
+}
+#outer:hover .red {
+    transform: rotate(90deg);
+}
+
+#outer:hover .yellow {
+    transform: rotate(-90deg);
+}
+
+#outer:hover .blue {
+    transform: rotate(-90deg);
+}
+
+#outer:hover .green {
+    transform: rotate(90deg);
+}
